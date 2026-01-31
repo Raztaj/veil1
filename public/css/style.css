@@ -34,6 +34,19 @@ body {
   line-height: 1.6;
 }
 
+.js-enabled body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.js-enabled body.loaded {
+  opacity: 1;
+}
+
+.js-enabled body.unloading {
+  opacity: 0;
+}
+
 [dir="rtl"] body {
   font-family: 'Cairo', sans-serif;
 }
@@ -663,8 +676,66 @@ footer {
   }
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .animate-fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Scroll Reveal */
+.reveal {
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+
+.reveal--fade-up {
+  transform: translateY(30px);
+}
+
+.reveal--fade-left {
+  transform: translateX(-50px);
+}
+
+[dir="rtl"] .reveal--fade-left {
+  transform: translateX(50px);
+}
+
+.reveal--fade-right {
+  transform: translateX(50px);
+}
+
+[dir="rtl"] .reveal--fade-right {
+  transform: translateX(-50px);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 /* Responsive */
