@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Veiltail Marketing</title>
+    <meta name="description" content="Learn about Veiltail's vision, mission, and goals. We create targeted and engaging digital stories for brands.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;600;700&family=Montserrat:wght@400;700&family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo">
+                <img src="images/Black_and_Beige_Minimalist_Elegant_Cosmetics_Logo__4_-removebg-preview-150x150.png" alt="Veiltail Logo">
+            </a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about-us.html" data-i18n="nav_about" class="active">About</a></li>
+                    <li><a href="our-work.html" data-i18n="nav_work">Our Work</a></li>
+                    <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
+                    <li><a href="strategy.html" data-i18n="nav_strategy">Strategy</a></li>
+                    <li><a href="contact-us.html" data-i18n="nav_contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <a href="#" class="button button--ghost" id="lang-toggle" data-i18n="lang_toggle">العربية</a>
+                <a href="contact-us.html" class="button button--primary" data-i18n="btn_get_touch">Get in Touch</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" data-testid="button-mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="slide-section" data-testid="section-vision">
+            <img src="images/slide-09-vision.png" alt="Our Vision" class="slide-image">
+        </section>
+
+        <section class="slide-section" data-testid="section-mission">
+            <img src="images/slide-10-mission.png" alt="Our Mission" class="slide-image">
+        </section>
+
+        <section class="slide-section" data-testid="section-goal">
+            <img src="images/slide-11-goal.png" alt="Our Goal" class="slide-image">
+        </section>
+
+        <section class="presentation-container alt-bg">
+            <div class="stats-section">
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label" data-i18n="stat_team">Team Member</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label" data-i18n="stat_campaign">Success Campaign</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label" data-i18n="stat_exp">Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label" data-i18n="exp_project">Project</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="presentation-container">
+            <div class="team-section">
+                <h2 data-i18n="footer_serv_team">Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/Team-2.jpg" alt="Team Member">
+                    </div>
+                    <div class="team-member">
+                        <img src="images/Team-3.jpg" alt="Team Member">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <a href="contact-us.html" class="btn-contact" data-i18n="btn_get_touch" data-testid="button-cta-contact">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">Copyright Veiltail @ 2025 | Powered by : Veiltail Media</p>
+                <p>www.veiltail.net</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+</body>
+</html>
