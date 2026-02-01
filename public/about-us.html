@@ -37,33 +37,33 @@
     </header>
 
     <main>
-        <section class="slide-section reveal" data-testid="section-vision">
+        <section class="slide-section reveal reveal--scale-in" data-testid="section-vision">
             <img src="images/slide-09-vision.png" alt="Our Vision" class="slide-image">
         </section>
 
-        <section class="slide-section reveal reveal--fade-up" data-testid="section-mission">
+        <section class="slide-section reveal reveal--scale-in" data-testid="section-mission">
             <img src="images/slide-10-mission.png" alt="Our Mission" class="slide-image">
         </section>
 
-        <section class="slide-section reveal reveal--fade-up" data-testid="section-goal">
+        <section class="slide-section reveal reveal--scale-in" data-testid="section-goal">
             <img src="images/slide-11-goal.png" alt="Our Goal" class="slide-image">
         </section>
 
         <section class="presentation-container alt-bg">
-            <div class="stats-section">
-                <div class="stat-item reveal reveal--fade-up">
+            <div class="stats-section reveal reveal--stagger">
+                <div class="stat-item">
                     <span class="stat-number">15+</span>
                     <span class="stat-label" data-i18n="stat_team">Team Member</span>
                 </div>
-                <div class="stat-item reveal reveal--fade-up">
+                <div class="stat-item">
                     <span class="stat-number">100+</span>
                     <span class="stat-label" data-i18n="stat_campaign">Success Campaign</span>
                 </div>
-                <div class="stat-item reveal reveal--fade-up">
+                <div class="stat-item">
                     <span class="stat-number">5+</span>
                     <span class="stat-label" data-i18n="stat_exp">Experience</span>
                 </div>
-                <div class="stat-item reveal reveal--fade-up">
+                <div class="stat-item">
                     <span class="stat-number">50+</span>
                     <span class="stat-label" data-i18n="exp_project">Project</span>
                 </div>
@@ -73,18 +73,27 @@
         <section class="presentation-container">
             <div class="team-section">
                 <h2 data-i18n="footer_serv_team" class="reveal reveal--fade-up">Our Team</h2>
-                <div class="team-grid">
-                    <div class="team-member reveal reveal--fade-left">
-                        <img src="images/Team-2.jpg" alt="Team Member">
+                <div class="team-grid reveal reveal--stagger">
+                    <div class="team-member">
+                        <img src="images/Team-2.jpg" alt="Polycarpus Adel">
+                        <h3 data-i18n="team_polycarpus_name">Polycarpus Adel</h3>
+                        <p data-i18n="team_polycarpus_role">Senior Full Stack Developer</p>
                     </div>
-                    <div class="team-member reveal reveal--fade-right">
-                        <img src="images/Team-3.jpg" alt="Team Member">
+                    <div class="team-member">
+                        <img src="images/Team-3.jpg" alt="Tajelsir Khalid">
+                        <h3 data-i18n="team_tajelsir_name">Tajelsir Khalid</h3>
+                        <p data-i18n="team_tajelsir_role">Programmer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/about-us-1.png" alt="Fathiya Al-Alawi">
+                        <h3 data-i18n="team_fathiya_name">Fathiya Al-Alawi</h3>
+                        <p data-i18n="team_fathiya_role">Graphic Designer</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="cta-section">
+        <section class="cta-section reveal reveal--fade-up">
             <a href="contact-us.html" class="btn-contact" data-i18n="btn_get_touch" data-testid="button-cta-contact">Get in Touch</a>
         </section>
     </main>
@@ -98,6 +107,7 @@
         </div>
     </footer>
 
+    <script src="js/animations.js"></script>
     <script src="js/translations.js"></script>
 </body>
 </html>
