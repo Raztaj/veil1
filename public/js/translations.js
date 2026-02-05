@@ -107,7 +107,13 @@ const translations = {
     "footer_company": "Company",
     "footer_comp_about": "About Us",
     "footer_serv_contact": "Contact Us",
-    "footer_copyright": "Copyright Veiltail @ 2025 | Powered by : Veiltail Media"
+    "footer_copyright": "Copyright Veiltail @ 2025 | Powered by : Veiltail Media",
+    "team_polycarpus_name": "Polycarpus Adel",
+    "team_polycarpus_role": "Senior Full Stack Developer",
+    "team_tajelsir_name": "Tajelsir Khalid",
+    "team_tajelsir_role": "Programmer",
+    "team_fathiya_name": "Fathiya Al-Alawi",
+    "team_fathiya_role": "Graphic Designer"
   },
   ar: {
     "nav_home": "الرئيسية",
@@ -217,7 +223,13 @@ const translations = {
     "footer_company": "الشركة",
     "footer_comp_about": "من نحن",
     "footer_serv_contact": "تواصل معنا",
-    "footer_copyright": "حقوق النشر Veiltail @ 2025 | مدعوم من: Veiltail Media"
+    "footer_copyright": "حقوق النشر Veiltail @ 2025 | مدعوم من: Veiltail Media",
+    "team_polycarpus_name": "بوليكاربوس عادل",
+    "team_polycarpus_role": "مطور فول ستاك أول",
+    "team_tajelsir_name": "تاج السر خالد",
+    "team_tajelsir_role": "مبرمج",
+    "team_fathiya_name": "فتحية العلوي",
+    "team_fathiya_role": "مصمم جرافيك"
   }
 };
 
